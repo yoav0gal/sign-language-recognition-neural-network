@@ -193,7 +193,7 @@ b1 -= learning_rate * db1
 
 3. **Classification Report**  
    
- <img src="latex/figures/classificationReportLegend.png" width="100%" alt="Confusion Matrix" />
+ <img src="latex/figures/classificationReportLegend.png" width="65%" alt="Confusion Matrix" />
 
 
 |                | precision | recall | f1-score | support |
