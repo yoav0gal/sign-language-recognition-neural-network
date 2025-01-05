@@ -193,22 +193,26 @@ b1 -= learning_rate * db1
 
 3. **Classification Report**  
    
-     $
-     \text{Accuracy} = \frac{\mathrm{TP + TN}}{\mathrm{TP + TN + FP + FN}}
-     $
   
-     $
-     \text{Precision} = \frac{\mathrm{TP}}{\mathrm{TP + FP}}
-     $
+    $$
+    
+    \text{Accuracy} = \frac{\mathrm{TP + TN}}{\mathrm{TP + TN + FP + FN}}
+    $$
 
-     $
-     \text{Recall(Sensitivity)} = \frac{\mathrm{TP}}{\mathrm{TP + FN}}
-     $
-   
-     $
-     F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
-     $
-   
+    $$
+    \text{Precision} = \frac{\mathrm{TP}}{\mathrm{TP + FP}}
+    $$
+
+    $$
+    \text{Recall(Sensitivity)} = \frac{\mathrm{TP}}{\mathrm{TP + FN}}
+    $$
+
+    $$
+    F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
+    $$
+
+  
+
     **Support**: number of samples per class.  
 
     **Macro Avg**: unweighted average across classes.  
