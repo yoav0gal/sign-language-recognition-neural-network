@@ -195,23 +195,17 @@ b1 -= learning_rate * db1
    
   
     $$
-    
-    \text{Accuracy} = \frac{\mathrm{TP + TN}}{\mathrm{TP + TN + FP + FN}}
-    $$
-
-    $$
+    \text{Accuracy} = \frac{\mathrm{TP + TN}}{\mathrm{TP + TN + FP + FN}} 
+    \newline
     \text{Precision} = \frac{\mathrm{TP}}{\mathrm{TP + FP}}
-    $$
-
-    $$
+    \newline
     \text{Recall(Sensitivity)} = \frac{\mathrm{TP}}{\mathrm{TP + FN}}
-    $$
-
-    $$
+    \newline 
     F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
+    \newline
     $$
 
-  
+
 
     **Support**: number of samples per class.  
 
